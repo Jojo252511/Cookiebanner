@@ -131,6 +131,7 @@ class CookieBanner extends HTMLElement {
         <button class="loeschen">&#10008; Alle Ablehnen</button>
         <p></p>
         <a href="./Datenschutz.txt" target="_blank" id="coocop">&copy;2023 Name</a>
+        //hier diese Daten durch ihre ersetzen
 
 
         </div>
