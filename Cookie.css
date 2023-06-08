@@ -15,15 +15,37 @@
     margin: 0;
     display: block;
     opacity: 1;
+    width: 10px;
+    height: 100px;
   }
+
+  
 
   #CookieButton p {
     transform: rotate(-90deg); /*Text ist um 90° nach links gedreht*/
     margin-top: 40px;
     margin-left: 0;
     margin-bottom: 40px;
+    color: white;
+    padding: 0px;
+    opacity: 0;
+    
   }
 
+  #CookieButton:hover p {
+    opacity: 1;
+  }
+  
+
+  #CookieButton:hover {
+
+    
+    width: max-content;
+    height: max-content;
+    
+    
+    
+  }
   
   @media screen and (max-width: 580px) {
     /*am Handy soll es nicht links mittig angezeigt werden da es stört deswegen wird es oben angezeigt*/
